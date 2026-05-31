@@ -44,6 +44,7 @@ target_include_directories(KF6I18nQml
 target_link_libraries(KF6I18nQml
     PUBLIC
         Qt6::Core
+        Qt6::QmlIntegration
     PRIVATE
         KF6I18n
         Qt6::Qml
